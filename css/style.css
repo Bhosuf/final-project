@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+a, h1, h2, p, label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.unfloat {
+    overflow: auto;
+}
+.headerBox {
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    color: seagreen;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: inline-block;
+    
+
+}
+#barNav {
+    font-size: 24px;
+
+}
+#fakeLogo{
+    margin-left: 5px;
+    width: 96px;
+    height: 48px;
+}
+
+
+#barNav .rightHead{
+    padding-right: 25px;
+    display: inline;
+    float: right;
+    
+
+}
+main {
+    position: flex;
+    z-index: 999;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.599);
+}
+.greenBox {
+    width: 100%;  
+    color: rgba(255, 255, 255, 0.665);
+    background-color: seagreen;
+    box-shadow: 2px 2px 2px rgb(32, 94, 59);
+
+}
+.greenBoxLeft {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.665);
+    background-color: seagreen;
+    box-shadow: 2px 2px 2px rgb(32, 94, 59);
+    float: left;
+    
+
+}
+.greenBoxRight {
+    width: 50%;
+    color: rgba(255, 255, 255, 0.665);
+    background-color: seagreen;
+    box-shadow: 2px 2px 2px rgb(32, 94, 59);
+    float: right;
+}
+.whiteBoxRightSpace {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: white;
+    width: 100%;
+    padding-bottom: 180px;
+
+}
+.whiteBoxContact{
+    float: right;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: white;
+    width: 100%;
+    padding-bottom: 180px;
+
+}
+.whiteBoxRight {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.65);
+    float: right;
+    width: 50%;
+
+}
+.whiteBoxLeft {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.65);
+    float: left;
+    width: 50%;
+
+}
+.whiteBox {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: white;
+    width: 100%;
+    padding-bottom: 180px;
+
+}
+
+#crumple {
+    margin-top: 60px;
+    display: inline;
+    float: right;
+}
+
+#contactForm {
+    padding-top: 20px;
+    display: block;
+    left: 0;
+}
+#contactForm input:hover {
+    border-color: seagreen;
+
+}
+.donate {
+    margin-left: 5px;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgba(213, 213, 213, 0.658);
+    padding: 15px;
+}
+.ask {
+    display: inline;
+}
+.askContact {
+    float: right;
+    display: inline;
+}
+#buttons {
+    float: right;
+    display: block;
+}
+#submitButton {
+
+    display: block;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: grey;
+    padding: 15px;
+}
+#cancelButton {
+    display: block;
+    padding: 15px;
+    background-color: crimson;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#gMaps {
+    float: right;
+}
+#aboutFoot {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.665);
+    width: 100%;
+    background-color: seagreen;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#aboutFoot a {
+    
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+#foot {   
+
+    position: flex;
+    color: rgba(255, 255, 255, 0.665);
+    width: 100%;
+    background-color: seagreen;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#foot a {
+    
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
