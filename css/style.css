@@ -31,12 +31,12 @@ a, h1, h2, p, label{
     margin-left: 5px;
     width: 96px;
     height: 48px;
-}
+} /* finding a good size was trial and error */
 
 
 #barNav .rightHead{
-    padding-right: 25px;
-    display: inline;
+    padding-right: 25px; /* keeps words away from each other */
+    display: inline; /* links on the same line */
     float: right;
     
 
@@ -48,7 +48,7 @@ main {
     display: block;
     background-color: rgba(255, 255, 255, 0.599);
 }
-.greenBox {
+.greenBox { /* different boxes served different purposes, named based on color and size */
     width: 100%;  
     color: rgba(255, 255, 255, 0.665);
     background-color: seagreen;
@@ -134,7 +134,7 @@ main {
     padding: 15px;
 }
 .ask {
-    display: inline;
+    display: inline; /* keep buttons in a row */
 }
 .askContact {
     float: right;
@@ -148,7 +148,7 @@ main {
 
     display: block;
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 15px; /* make buttons round */
     background-color: grey;
     padding: 15px;
 }
@@ -162,7 +162,7 @@ main {
 #gMaps {
     float: right;
 }
-#aboutFoot {
+#aboutFoot { /* footer wasn't working with about page, had to make it special */
     position: absolute;
     color: rgba(255, 255, 255, 0.665);
     width: 100%;
